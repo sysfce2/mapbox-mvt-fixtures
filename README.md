@@ -1,6 +1,6 @@
 ![mvt-fixtures crew](https://c1.staticflickr.com/5/4495/24124229798_b82cd97858_o.png)
 
-[![Build Status](https://travis-ci.org/mapbox/mvt-fixtures.svg?branch=master)](https://travis-ci.org/mapbox/mvt-fixtures)
+[![Run tests](https://github.com/mapbox/mvt-fixtures/actions/workflows/test.yml/badge.svg)](https://github.com/mapbox/mvt-fixtures/actions/workflows/test.yml)
 
 A `require()`able suite of valid and invalid vector tile fixtures for testing [Mapbox Vector Tile](https://github.com/mapbox/vector-tile-spec) encoders and decoders. You can view a list of all fixtures at [FIXTURES.md](FIXTURES.md).
 
@@ -198,3 +198,7 @@ All tests can be run with:
 ```
 npm test
 ```
+
+# License
+
+This repository is dual-licensed. The repository and code are distributed by Mapbox under the [CC0 v1.0 Universal](/LICENSE-CC0.md) license. The fixtures, which include [Open Street Map](https://www.openstreetmap.org/copyright) data, are distributed under the [Open Data Commons ODbL v1.0](/LICENSE-ODBL.md) license. Both should be included when depending on this project.
